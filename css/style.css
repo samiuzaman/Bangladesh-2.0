@@ -1,0 +1,34 @@
+/* Reset Code Start */
+*, *::before *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset Code End */
+
+/* root section code start */
+:root{
+
+}
+/* root section code end */
+
+#nav-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+#logo-contain > h3{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#button-contain > button{
+    background-color: white;
+    color: #006A50;
+    border:none;
+    border: 2px solid #006A50;
+    padding: 10px 22px;
+    border-radius: 5px;
+}
