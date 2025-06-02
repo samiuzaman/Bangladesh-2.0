@@ -1,6 +1,7 @@
 /* Reset Code Start */
 *,
-*::before *::after {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,18 +82,17 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
 }
-#pillars-container{
-    display: flex;
-    gap: 12px;
+#pillars-container {
+  display: flex;
+  gap: 12px;
 }
 .Pillars-heading {
   font-size: 40px;
   font-weight: 700;
-  
 }
 .paillars-card {
   box-sizing: border-box;
-  border: 2px solid #0E0E0E26;
+  border: 2px solid #0e0e0e26;
   border-radius: 8px;
   box-shadow: 4px 4px 16px #b8b8b8;
   padding: 12px 12px;
@@ -103,4 +103,36 @@ body {
 }
 .paillars-card p {
   color: #0e0e0eb3;
+}
+#vision-container {
+  width: 85%;
+  margin: auto;
+}
+#vision-container h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#vision-container p {
+  color: #0e0e0eb3;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.first-future-card {
+}
+.second-future-card {
+}
+.third-future-card {
+}
+.future-card {
+}
+.future-card h4 {
+}
+.future-card p {
+}
+.btn-one {
+}
+.btn-two {
+}
+.btn-three {
 }
